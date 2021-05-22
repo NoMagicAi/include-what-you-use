@@ -176,6 +176,7 @@
   { include: [ "<bits/string3.h>", private, "<string.h>", public ] },
   { include: [ "<bits/timerfd.h>", private, "<sys/timerfd.h>", public ] },
   { include: [ "<bits/typesizes.h>", private, "<sys/types.h>", public ] },
+  { include: [ "<bits/std_abs.h>", private, "<cmath>", public ] },
   # Top-level #includes that just forward to another file:
   # $ for i in /usr/include/*; do [ -f $i ] } && [ `wc -l < $i` = 1 ] } && echo $i; done
   # (poll.h, syscall.h, syslog.h, ustat.h, wait.h).
