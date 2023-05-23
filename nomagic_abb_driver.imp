@@ -1,0 +1,6 @@
+# Default include mappings for ABB robot driver
+[
+  { ref: iwyu.gcc.imp },
+  { ref: boost-1.75-all.imp },
+  { ref: gtest.imp },
+]
