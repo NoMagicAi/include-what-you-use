@@ -48,6 +48,7 @@ static const char* const kFullUseTypes[] = {
   "std::set",
   "std::slist",
   "std::vector",
+  "std::unordered_map",
 };
 
 // If the passed-in tpl_decl is one of the classes we have hard-coded
