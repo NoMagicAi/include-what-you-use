@@ -43,6 +43,7 @@ static const char* const kFullUseTypes[] = {
   "std::deque",
   "std::list",
   "std::map",
+  "std::make_shared",
   "std::multimap",
   "std::multiset",
   "std::set",
